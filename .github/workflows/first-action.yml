@@ -20,8 +20,8 @@ jobs:
       
       - name: Print greeting
       # this is a cmd that will be executed in a command line
-      - run: echo Hello, world!
+        run: echo Hello, world!
       
       - name: Print goddbye
       # this is a cmd that will be executed in a command line
-      - run: echo Done - Bye!
+        run: echo Done - Bye!
