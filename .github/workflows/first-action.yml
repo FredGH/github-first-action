@@ -17,8 +17,10 @@ jobs:
     # Steps represent a sequence of tasks that will be executed as part of the job
     steps:
       - name: Print greeting
+        uses: stuff 
       # this is a cmd that will be executed in a command line
       - run: echo Hello, world!
       - name: Print goddbye
+        uses: stuff
       # this is a cmd that will be executed in a command line
       - run: echo Done - Bye!
