@@ -16,11 +16,12 @@ jobs:
     runs-on: ubuntu-latest
     # Steps represent a sequence of tasks that will be executed as part of the job
     steps:
+      - uses: actions/checkout@v3 
+      
       - name: Print greeting
-        uses: stuff 
       # this is a cmd that will be executed in a command line
       - run: echo Hello, world!
+      
       - name: Print goddbye
-        uses: stuff
       # this is a cmd that will be executed in a command line
       - run: echo Done - Bye!
