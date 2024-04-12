@@ -18,10 +18,15 @@ jobs:
     steps:
       - uses: actions/checkout@v3 
       
-      - name: Print greeting
+      - name: (Single Task) Print greeting
       # this is a cmd that will be executed in a command line
         run: echo Hello, world!
       
-      - name: Print goddbye
+      - name: (Single Task) Print goddbye
       # this is a cmd that will be executed in a command line
         run: echo Done - Bye!
+
+      - name: (Multiple Tasks) Here we go
+        run: |
+          echo "First output"
+          echo "Second output"
